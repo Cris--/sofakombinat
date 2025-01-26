@@ -7,8 +7,8 @@ const config = {
 		// List of all available videos (e.g. '['video1.mp4', 'video2.ogg', 'video3.mov']')
 		// See below if you want to use URLs instead of filenames.
 		'Items': [
-			'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-			'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+			'../assets/38s3-borrodisko_miniwarm.mp4',
+			'../assets/vid-loop-back-lamp.mp4',
 			'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
 			'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
 			'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
@@ -32,13 +32,13 @@ const config = {
 		'Fullscreen': false
 		,
 		// Enable autoplay (will mute the video on playback)
-		'Autoplay': false
+		'Autoplay': true
 		,
 		// Display video-controls (e.g. playhead, volume-slider, etc.)
-		'Controls': true
+		'Controls': false
 		,
 		// Loops the video (plays it over and over)
-		'Loop': false
+		'Loop': true
 
 	}
 };
